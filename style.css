@@ -1,0 +1,240 @@
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 16em;
+    background-color: #1F2937;
+}
+
+/* .wrapper {
+    width: 1200px;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.logo {
+    flex: 1 0 auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 0 1rem;
+    
+}
+
+.navbar > ul {
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+    font-size: 18px;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.left-items > h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.left-items > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-items > button {
+    color: white;
+    background-color: #3882F6;
+    font-weight: 600;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 8px;
+}
+
+.container {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 0;
+    gap: 5rem;
+}
+
+.left-items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.right-items {
+    align-self: stretch;
+    flex: 1.24;
+    border-radius: 8px;
+    background: url("https://images.pexels.com/photos/3311084/pexels-photo-3311084.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+}
+
+/* section - 2 */
+
+.section-2 {
+    display: flex;
+    padding: 20px 0 20px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.raninfo-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    min-height: 400px;
+}
+
+.card-container {
+    width: 70%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 50px;
+}
+
+.raninfo-content > h2 {
+    text-align:center;
+    font-size: 36px;
+    font-weight: bolder ;
+    color: #1f2937;
+}
+
+.card-square {
+    border: #3882f6 solid 5px;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+
+.card-container > div {
+    color: #1f2937;
+}
+
+/* section - 3 */
+
+.section-3 {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7e5;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.t-container {
+    display: flex;
+    flex-direction: column;
+    width:1200px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    width: 70%;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#from {
+    width:70%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+/* section-4 */
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 350px;
+}
+
+.call-container {
+    color:white;
+    padding: 40px 80px 40px 80px;
+    width:800px;
+    display: flex;
+    flex-direction: row;
+    border-radius:10px;
+    background-color:#3882f6;
+}
+
+#cheader {
+    font-weight: bolder;
+    font-size:20px;
+}
+
+#ctext {
+    width:70%;
+}
+
+.call-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:30%;
+}
+
+#sign-up{
+    color: white;
+    border-radius: 10px;
+    border: white solid 2px;
+    padding: 8px 40px 8px 40px;
+    background-color:#3882f6;
+}
+
+footer {
+    height:100px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
